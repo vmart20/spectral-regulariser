@@ -1,0 +1,52 @@
+chameleon:
+  dataset: chameleon
+  dropout1: 0.6
+  feat_dropout: 0.6
+  epoch: 2000
+  hidden_dim: 32
+  nclass: 5
+  power: 10
+  seed: 1
+  weight_decay: 5.0e-05
+  lr: 0.1
+  gamma: 0
+  cuda: 1
+squirrel:
+  dataset: squirrel
+  dropout1: 0.4
+  feat_dropout: 0.6
+  epoch: 2000
+  hidden_dim: 64
+  nclass: 5
+  power: 10
+  seed: 1
+  weight_decay: 5.0e-05
+  lr: 0.1
+  gamma: 0
+  cuda: 1
+cora:
+  dataset: cora
+  dropout1: 0.8
+  feat_dropout: 0.2
+  epoch: 2000
+  hidden_dim: 16
+  nclass: 7
+  power: 10
+  seed: 1
+  weight_decay: 0.0005
+  lr: 0.1
+  gamma: 0
+  cuda: 1
+citeseer:
+  dataset: citeseer
+  dropout1: 0.8
+  feat_dropout: 0.0
+  epoch: 2000
+  hidden_dim: 16
+  nclass: 6
+  power: 10
+  seed: 1
+  weight_decay: 0.001
+  lr: 0.05
+  gamma: 0
+  cuda: 1
