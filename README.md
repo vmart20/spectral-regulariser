@@ -3,12 +3,6 @@ Official code for the AISTATS 2026 paper: **"Generalization Bounds for Spectral 
 
 
 ## Regulariser
-You should first run preprocess_data.py to do eigenvalue decomposition and save the eigenvalues and eigenvectors in generated files for each dataset.
-
-```bash
-python preprocess_data.py
-```
-
 To run the main node classification experiments on the benchmark datasets (Cora, Citeseer, Chameleon, Squirrel) with the energy-weighted regularizer:
 
 ```bash

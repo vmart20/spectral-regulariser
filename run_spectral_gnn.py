@@ -29,7 +29,7 @@ def main_worker(config, data_path = None, return_all = False):
 
     if data_path is None:
         data_path =  'data/train_data/{}.pt'.format(config["dataset"])
-    e, u, x, y, adj = torch.load(data_path)
+    e, u, x, y = torch.load(data_path)
     e, u, x, y = e.cuda(), u.cuda(), x.cuda(), y.cuda()
     e = 1 - e
 
